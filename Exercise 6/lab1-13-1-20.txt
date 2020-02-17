@@ -1,0 +1,17 @@
+https://blog.sourcerer.io/writing-a-simple-linux-kernel-module-d9dc3762c234
+
+Followed this tutorial to a t.
+
+Commands:
+apt-get install build-essential linux-headers-`uname -r`
+mkdir ~/src/lkm_example
+cd ~/src/lkm_example
+
+After creating hello.c and Makefile and do:
+make
+sudo insmod hello.ko
+sudo dmesg
+sudo rmmod hello
+
+If it says that the file already exists then remove the file by running
+sudo rmmod hello

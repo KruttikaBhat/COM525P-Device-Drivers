@@ -1,0 +1,12 @@
+mkdir ~/src/lkm_example
+cd ~/src/lkm_example
+gedit driver.c &
+gedit Makefile &
+gedit test_app.c &
+make
+gcc -o test_app test_app.c
+sudo insmod driver.ko
+sudo ./test_app 
+sudo dmesg
+sudo rmmod driver
+
