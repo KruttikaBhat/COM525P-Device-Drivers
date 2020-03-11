@@ -1,0 +1,16 @@
+To run:
+Followed https://olegkutkov.me/2018/03/14/simple-linux-character-device-driver/
+
+sudo apt-get install build-essential linux-headers-`uname -r`
+sudo mkdir ~/src/lkm_example
+sudo cd ~/src/lkm_example
+gedit main.c &
+gedit Makefile 
+
+Copy the c program and makefile
+
+Next:
+sudo make
+sudo insmod mychardev.ko
+
+
