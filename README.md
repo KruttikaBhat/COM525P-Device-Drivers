@@ -7,6 +7,7 @@ Exercises done as part of the course Device Drivers.
 7. Write a simple Network Device Driver. Write a C program to capture network packets. Run this program when you type password in http access through browser. Manually find the password typed from captured http packet.  
 8. Write a Device Deriver which uses the system call IOCTL to set parameters in a character or block device. Also write a user application program that call this driver to set the parameters. Check the output.  
 9. Write a Keyboard Device driver which captures a password that got typed in a HTTPS secured browser link text box. Check the unencrypted password in log.
+15. C program which create a char device,  read and write in that.
 
 
 
