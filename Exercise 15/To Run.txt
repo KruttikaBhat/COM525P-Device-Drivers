@@ -13,4 +13,15 @@ Next:
 sudo make
 sudo insmod mychardev.ko
 
+To view the created devices:
+ls -l /dev/mychardev-*
+
+To read from it:
+head -c29 /dev/mychardev-1
+
+To write to it:
+echo "Hello from the user" > /dev/mychardev-1
+
+dmesg to see log
+
 
