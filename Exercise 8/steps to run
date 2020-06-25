@@ -1,12 +1,22 @@
 mkdir ~/src/lkm_example
 cd ~/src/lkm_example
+
+#copy the codes to the respectively created programs
 gedit driver.c &
 gedit Makefile &
 gedit test_app.c &
+
+#This will run the Makefile
 make
+
+#Compile the test_app
 gcc -o test_app test_app.c
 sudo insmod driver.ko
+
+#run the test_app
 sudo ./test_app 
+
+#This will let you see the output
 sudo dmesg
 sudo rmmod driver
 
