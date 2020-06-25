@@ -1,5 +1,6 @@
 # COM525P-Device-Drivers
-Exercises done as part of the course Device Drivers.  
+
+## Lab Exercises ##
 
 3. Write a shell program to send a mail to you if it find existence of a file with size more than 100MB.  
   * Install ssmtp. I used https://askubuntu.com/questions/12917/how-to-send-mail-from-the-command-line as reference. 
@@ -27,6 +28,7 @@ Exercises done as part of the course Device Drivers.
 
 15. C program which create a char device,  read and write in that.
 
-##Course Assignment 
+## Course Assignment ##
+This contains the readme and script for backing up your data using rsync along with some additional functionalities.
 
 
