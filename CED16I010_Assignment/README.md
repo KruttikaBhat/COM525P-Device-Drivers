@@ -17,7 +17,7 @@ The script can be made to run regularly by modifying add_to_cron.sh, which will 
 ## To use ##
 Before running this script, modify line 12 by replacing the given email address with your email address. Ensure ssmtp is set up and working before running the script.
 
-Create backup.sh executable:
+Create backup.sh executable:  
 `chmod +x backup.sh`  
 `./backup.sh -argument source-path destination-path`
 
@@ -40,7 +40,7 @@ Example: `./backup.sh -restore /home/dell/Desktop/data/ /home/dell/Desktop/GRE/`
 ## To automate ##
 Before running, modify the script at line 4 to run at the time you wish, with the argument, source/destination that you require. An example is currently shown in the script. But if you run it as it is then you will get an error. 
 
-Create the executable and run it:
-`chmod +x add_to_cron.sh  
-./add_to_cron.sh`
+Create the executable and run it:  
+`chmod +x add_to_cron.sh`  
+`./add_to_cron.sh`
 			
