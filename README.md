@@ -1,4 +1,4 @@
-# COM525P-Device-Drivers-Practise
+# COM525P-Device-Drivers
 Exercises done as part of the course Device Drivers.  
 
 3. Write a shell program to send a mail to you if it find existence of a file with size more than 100MB.  
@@ -27,5 +27,6 @@ Exercises done as part of the course Device Drivers.
 
 15. C program which create a char device,  read and write in that.
 
+##Course Assignment 
 
 
