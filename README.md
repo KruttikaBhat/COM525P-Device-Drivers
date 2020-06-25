@@ -1,6 +1,10 @@
 # COM525P-Device-Drivers-Practise
 Exercises done as part of the course Device Drivers.  
 3. Write a shell program to send a mail to you if it find existence of a file with size more than 100MB.  
+  * Install ssmtp. I used https://askubuntu.com/questions/12917/how-to-send-mail-from-the-command-line as reference. 
+  * Modify line 12 in LE3.sh by changing the path of the directory you wish to check.  
+  * Create the executable of LE3.sh by running, `chmod +x LE3.sh`.
+  * Finally run the script, `./LE3.sh`.
 4. Write a shell program which will download a given web page through http url. Insert a timer code in that to print how much time is taken for download. Put above shell program in Cron and run it every 10 minutes for three hours and download same webpage. Find minimum and maximum download time manually from output data.  
 5. Write any shell program with more than 200 lines of source code excluding comments.  
 6. Write a C program. Compile as a kernel object file with extension .ko. Insert above into kernel. Also remove.  
